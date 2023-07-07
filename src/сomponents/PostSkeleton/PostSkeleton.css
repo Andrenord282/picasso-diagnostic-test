@@ -1,0 +1,25 @@
+.post-skeleton {
+    padding: 30px 0;
+}
+
+.post-skeleton__author-info {
+    height: 56px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.post-skeleton__content {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.post-skeleto__comment {
+    width: 100%;
+    height: 100px;
+}
+
+.post-skeleto__comment:not(:last-child) {
+    margin-bottom: 10px;
+}

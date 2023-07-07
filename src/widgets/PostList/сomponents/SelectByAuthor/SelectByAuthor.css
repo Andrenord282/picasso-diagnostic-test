@@ -1,0 +1,46 @@
+.select-by-author {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.select-by-author__input-body {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    margin-right: 10px;
+}
+
+.select-by-author__label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select-by-author__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.select-by-author__search-list {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6dada;
+}
+
+.select-by-author__search-list-item {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.select-by-author__select-author {}
+
+.select-by-author__select-author span {
+    font-weight: 700;
+}

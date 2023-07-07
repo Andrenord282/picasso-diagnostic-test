@@ -1,0 +1,26 @@
+.post-item-skeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #b1aeae;
+}
+
+.post-item-skeleton__title {
+    width: 70%;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+.post-item-skeleton__text {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.post-item-skeleton__auhtor {
+    width: 90px;
+    height: 20px;
+    align-self: flex-end;
+}

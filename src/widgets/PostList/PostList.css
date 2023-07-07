@@ -1,0 +1,13 @@
+.post-list {
+    padding: 30px 0;
+}
+
+.post-list__select {
+    margin-bottom: 20px;
+}
+
+.post-list__item {}
+
+.post-list__item:not(:last-of-type) {
+    margin-bottom: 20px;
+}
